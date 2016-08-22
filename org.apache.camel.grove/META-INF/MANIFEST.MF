@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-grove
+Bundle-SymbolicName: org.apache.camel.grove
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.apache.camel.grove.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/mraa.jar,
+ lib/upm_grove.jar,
+ lib/upm_i2clcd.jar,
+ .
+Export-Package: org.apache.camel.component.grove,
+ org.apache.camel.grove
+Import-Package: org.apache.camel;version="2.16.3",
+ org.apache.camel.impl,
+ org.apache.camel.spi;version="2.16.3",
+ org.osgi.framework;version="1.7.0"

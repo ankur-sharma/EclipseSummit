@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Paho Demo
+Bundle-SymbolicName: org.ankur.pahodemo
+Bundle-Version: 1.0.0
+Bundle-Activator: org.ankur.pahodemo.Activator
+Import-Package: org.apache.camel,
+ org.apache.camel.builder,
+ org.apache.camel.component.kura,
+ org.apache.camel.component.paho,
+ org.apache.camel.core.osgi,
+ org.apache.camel.impl,
+ org.apache.camel.model,
+ org.eclipse.paho.client.mqttv3;version="1.0.2",
+ org.osgi.framework
+Bundle-ActivationPolicy: lazy
